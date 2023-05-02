@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shopping-cart-list {
+    position: absolute;
+    width: 350px;
+    right: -12px;
+    top: 46px;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+}
+
+.shopping-cart-list .list-item {
+    margin-top: 10px;
+}
